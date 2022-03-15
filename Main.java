@@ -61,8 +61,17 @@ class Main {
     z1 = e.nextDouble();
     Scanner f = new Scanner(System.in);
     z2 = f.nextDouble();
-
-    iloraz= z1/z2;
+  if(z2 !=0)
+  {
+    iloraz = z1/z2;
+    System.out.println("wynik to "+iloraz);
+  }
+  else
+  {
+     System.out.println("nie dziel przez zero !!!");
+    break;
+  }
+  
 
     System.out.println("wynik dzielenia "+iloraz);
           break;
